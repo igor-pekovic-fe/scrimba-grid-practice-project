@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 1.25em;
+}
+
+.date {
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.date-hero {
+  color: #fff;
+}
+
+.header {
+  height: 3.76em;
+  background-color: #fff;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav-logo a {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+.header__nav-logo img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.1em;
+}
+.header__nav-links {
+  display: flex;
+  gap: 2em;
+}
+.header__nav-links a {
+  color: #0e0e0e;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main__hero {
+  height: 18.75rem;
+  background-image: url("./images/article-image-hero.png");
+  background-size: cover;
+}
+.main__hero-title {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.1;
+}
+.main__hero-subtext {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
