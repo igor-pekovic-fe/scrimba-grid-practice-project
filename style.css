@@ -24,17 +24,19 @@ img {
 }
 
 .date {
+  color: #000000;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .date-hero {
   color: #fff;
+  font-weight: 300;
+  margin-bottom: 0.5em;
 }
 
 .header {
-  height: 3.76em;
   background-color: #fff;
 }
 .header__nav {
@@ -66,17 +68,46 @@ img {
 }
 
 .main__hero {
-  height: 18.75rem;
+  padding-top: 4.3em;
   background-image: url("./images/article-image-hero.png");
   background-size: cover;
 }
+.main__hero-title, .main__hero-subtext {
+  color: #fff;
+}
 .main__hero-title {
   font-size: 2rem;
-  color: #fff;
+  font-weight: 700;
   line-height: 1.1;
+  margin-bottom: 0.25em;
 }
 .main__hero-subtext {
   font-size: 1rem;
-  color: #fff;
   font-weight: 400;
+}
+.main__posts__card img {
+  margin-block: 0.5em;
+}
+.main__posts__card-title {
+  font-size: 1.5rem;
+  margin-block: 0.25em;
+}
+.main__posts__card-subtext {
+  color: #505050;
+  margin-bottom: 1.5em;
+}
+
+.footer {
+  background-color: #202020;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-block: 1.5em;
+  font-size: 0.75rem;
+}
+.footer__text-subtext {
+  color: #d7d7d7;
 }/*# sourceMappingURL=style.css.map */

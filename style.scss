@@ -30,17 +30,19 @@ img {
 
 // Styling
 .date {
+  color: $black;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .date-hero {
   color: $white;
+  font-weight: 300;
+  margin-bottom: 0.5em;
 }
 
 .header {
-  height: 3.76em;
   background-color: $white;
 
   &__nav {
@@ -80,20 +82,60 @@ img {
 
 .main {
   &__hero {
-    height: 18.75rem;
+    padding-top: 4.3em;
     background-image: url("./images/article-image-hero.png");
     background-size: cover;
 
+    &-title,
+    &-subtext {
+      color: $white;
+    }
+
     &-title {
       font-size: 2rem;
-      color: $white;
+      font-weight: 700;
       line-height: 1.1;
+      margin-bottom: 0.25em;
     }
 
     &-subtext {
       font-size: 1rem;
-      color: $white;
       font-weight: 400;
+    }
+  }
+
+  &__posts {
+    &__card {
+      img {
+        margin-block: 0.5em;
+      }
+
+      &-title {
+        font-size: 1.5rem;
+        margin-block: 0.25em;
+      }
+
+      &-subtext {
+        color: $grey;
+        margin-bottom: 1.5em;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $footer-grey;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    margin-block: 1.5em;
+    font-size: 0.75rem;
+
+    &-subtext {
+      color: $footer-copyright-color;
     }
   }
 }
