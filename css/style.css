@@ -124,7 +124,17 @@ ul {
   margin-bottom: 1.1em;
 }
 .main__blog-subheading {
+  color: #151515;
   margin-block: 1.5em;
+}
+.main__about-profilepic {
+  width: 182px;
+  margin-block: 1em;
+}
+.main__about-title {
+  font-size: 2.125rem;
+  color: #151515;
+  margin-block: 0.5em;
 }
 
 .footer {
