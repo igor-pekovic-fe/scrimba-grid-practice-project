@@ -36,6 +36,10 @@ img {
   margin-bottom: 0.5em;
 }
 
+.date-blog {
+  font-size: 0.875rem;
+}
+
 .header {
   background-color: #fff;
 }
@@ -84,6 +88,9 @@ img {
 .main__hero-subtext {
   font-size: 1rem;
   font-weight: 400;
+}
+.main__posts-title {
+  text-align: center;
 }
 .main__posts__card img {
   margin-block: 0.5em;
