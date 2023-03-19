@@ -40,6 +40,8 @@ ul {
 }
 
 .header {
+  position: sticky;
+  top: 0px;
   background-color: #fff;
 }
 .header__nav {
