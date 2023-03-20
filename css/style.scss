@@ -11,6 +11,8 @@
 // General styling
 body {
   font-family: "Source Sans Pro", sans-serif;
+  display: grid;
+  justify-content: center;
 }
 
 a {
@@ -25,6 +27,7 @@ ul {
 
 .container {
   padding: 1.25em;
+  max-width: 64rem;
 }
 
 // Styling
