@@ -87,6 +87,14 @@
       margin-block: 0.5em;
     }
   }
+
+  &-showbtn {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $black;
+    text-decoration: underline;
+    margin-left: auto;
+  }
 }
 
 @media (min-width: 1000px) {
