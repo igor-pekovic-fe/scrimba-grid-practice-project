@@ -8,8 +8,6 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  display: grid;
-  justify-content: center;
 }
 
 a {
@@ -22,6 +20,9 @@ ul {
 
 .container {
   padding: 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .date {
@@ -48,6 +49,7 @@ ul {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .header__nav {
+  max-width: 64rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,6 +148,7 @@ ul {
   background-color: #202020;
 }
 .footer__text {
+  max-width: 64rem;
   display: flex;
   flex-direction: column;
   align-items: center;
