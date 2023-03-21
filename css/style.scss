@@ -233,7 +233,8 @@ ul {
 
   .main {
     &__hero {
-      padding-block: 11em 2.5em;
+      height: 30.5rem;
+      padding-block: 16em 2.5em;
 
       &-title {
         font-size: 2.5rem;
@@ -246,12 +247,6 @@ ul {
     }
 
     &__posts {
-      padding: 3.25em;
-
-      .container {
-        padding: 0;
-      }
-
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1.625em;

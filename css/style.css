@@ -179,7 +179,8 @@ ul {
     font-size: 1rem;
   }
   .main__hero {
-    padding-block: 11em 2.5em;
+    height: 30.5rem;
+    padding-block: 16em 2.5em;
   }
   .main__hero-title {
     font-size: 2.5rem;
@@ -189,13 +190,9 @@ ul {
     padding-right: 18em;
   }
   .main__posts {
-    padding: 3.25em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.625em;
-  }
-  .main__posts .container {
-    padding: 0;
   }
   .main__posts img {
     width: 100%;
