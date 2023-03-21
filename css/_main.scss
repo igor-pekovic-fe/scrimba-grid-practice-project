@@ -1,0 +1,137 @@
+.main {
+  max-width: 64rem;
+
+  &__hero {
+    padding-top: 4.3em;
+    background-image: url("../images/article-image-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &-title,
+    &-subtext {
+      color: $white;
+    }
+
+    &-title {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 0.25em;
+    }
+
+    &-subtext {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+
+  &__posts {
+    &-title {
+      text-align: center;
+    }
+
+    &__card {
+      img {
+        width: 100%;
+        height: 14.5rem;
+        margin-block: 2em;
+        border-radius: 3px;
+      }
+
+      &-title {
+        font-size: 1.5rem;
+        margin-block: 0.25em;
+      }
+
+      &-subtext {
+        color: $grey;
+      }
+    }
+  }
+
+  &__blog {
+    &-image {
+      width: 100%;
+      height: 11.875rem;
+    }
+
+    &-title {
+      color: $dark-grey;
+      margin-block: 0.5em;
+      line-height: 1.1;
+    }
+
+    &-subtext {
+      color: $dark-grey;
+      line-height: 1.3;
+      margin-bottom: 1.1em;
+    }
+
+    &-subheading {
+      color: $dark-grey;
+      margin-block: 1.5em;
+    }
+  }
+
+  &__about {
+    &-profilepic {
+      width: 182px;
+      margin-block: 1em;
+    }
+
+    &-title {
+      font-size: 2.125rem;
+      color: $dark-grey;
+      line-height: 1.1;
+      padding-right: 1em;
+      margin-block: 0.5em;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    &__hero {
+      height: 30.5rem;
+      padding-block: 16em 2.5em;
+
+      &-title {
+        font-size: 2.5rem;
+      }
+
+      &-subtext {
+        font-size: 1rem;
+        padding-right: 18em;
+      }
+    }
+
+    &__posts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1.625em;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 230px;
+      }
+    }
+
+    &__blog {
+      &-image {
+        width: 100%;
+        height: 30.5rem;
+        object-fit: cover;
+        margin-block: 0.5em;
+      }
+
+      &__container {
+        padding-inline: 2.5em;
+      }
+
+      &-subheading {
+        margin-block: 1em;
+      }
+    }
+  }
+}

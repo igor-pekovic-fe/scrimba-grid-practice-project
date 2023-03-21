@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0px;
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  &__nav {
+    max-width: 64rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+      a {
+        display: flex;
+        align-items: center;
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: $dark-font;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 0.1em;
+      }
+    }
+
+    &-links {
+      display: flex;
+      gap: 2em;
+
+      a {
+        color: $dark-font;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    &__nav {
+      &-logo {
+        a {
+          font-size: 1.25rem;
+        }
+
+        img {
+          width: 34px;
+          height: 34px;
+        }
+      }
+
+      &-links {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

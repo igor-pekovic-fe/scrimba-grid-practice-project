@@ -1,0 +1,17 @@
+.footer {
+  background-color: $footer-grey;
+
+  &__text {
+    max-width: 64rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    margin-block: 1.5em;
+    font-size: 0.75rem;
+
+    &-subtext {
+      color: $footer-copyright-color;
+    }
+  }
+}
