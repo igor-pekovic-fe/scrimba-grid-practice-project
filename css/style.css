@@ -200,17 +200,17 @@ ul {
        object-fit: cover;
     height: 230px;
   }
-  .main__blog .date, .main__blog-subtext, .main__blog-subheading {
-    padding-inline: 3em;
-  }
-  .main__blog .date {
-    margin-top: 2em;
-  }
-  .main__blog-title {
-    padding-inline: 1.5em;
-  }
   .main__blog-image {
     width: 100%;
-    height: 488px;
+    height: 30.5rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-block: 0.5em;
+  }
+  .main__blog__container {
+    padding-inline: 2.5em;
+  }
+  .main__blog-subheading {
+    margin-block: 1em;
   }
 }/*# sourceMappingURL=style.css.map */

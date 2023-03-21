@@ -259,23 +259,19 @@ ul {
     }
 
     &__blog {
-      .date,
-      &-subtext,
-      &-subheading {
-        padding-inline: 3em;
-      }
-
-      .date {
-        margin-top: 2em;
-      }
-
-      &-title {
-        padding-inline: 1.5em;
-      }
-
       &-image {
         width: 100%;
-        height: 488px;
+        height: 30.5rem;
+        object-fit: cover;
+        margin-block: 0.5em;
+      }
+
+      &__container {
+        padding-inline: 2.5em;
+      }
+
+      &-subheading {
+        margin-block: 1em;
       }
     }
   }
