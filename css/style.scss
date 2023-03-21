@@ -27,7 +27,6 @@ ul {
 
 .container {
   padding: 1.25em;
-  max-width: 64rem;
 }
 
 // Styling
@@ -90,6 +89,8 @@ ul {
 }
 
 .main {
+  max-width: 64rem;
+
   &__hero {
     padding-top: 4.3em;
     background-image: url("../images/article-image-hero.png");

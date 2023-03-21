@@ -22,7 +22,6 @@ ul {
 
 .container {
   padding: 1.25em;
-  max-width: 64rem;
 }
 
 .date {
@@ -76,6 +75,9 @@ ul {
   text-transform: uppercase;
 }
 
+.main {
+  max-width: 64rem;
+}
 .main__hero {
   padding-top: 4.3em;
   background-image: url("../images/article-image-hero.png");
