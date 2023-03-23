@@ -26,16 +26,29 @@
       }
     }
 
-    &-links {
-      display: flex;
-      gap: 2em;
+    &__links-desktop {
+      display: none;
+    }
+
+    &__links-mobile {
+      position: absolute;
+      right: 0;
+      color: $dark-font;
+      font-size: 2rem;
+      background-color: $white;
+      height: 50rem;
+      width: 100vw;
 
       a {
-        color: $dark-font;
-        font-size: 0.75rem;
-        font-weight: 600;
-        text-transform: uppercase;
+        z-index: 2;
       }
+    }
+
+    &-hamburgericon {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      z-index: (10);
     }
   }
 }
@@ -54,10 +67,24 @@
         }
       }
 
-      &-links {
+      &__links-desktop {
+        display: flex;
+        gap: 2em;
+
         a {
+          color: $dark-font;
           font-size: 1rem;
+          font-weight: 600;
+          text-transform: uppercase;
         }
+      }
+
+      &__links-mobile {
+        display: none;
+      }
+
+      &-hamburgericon {
+        display: none;
       }
     }
   }
